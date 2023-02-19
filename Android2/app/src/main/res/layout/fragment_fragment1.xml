@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".fragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fragment1"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/dataform2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:textColor="@color/black"
+        android:textSize="26dp"
+        />
+
+    <EditText
+        android:id="@+id/fragment1Data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="bold"
+        android:layout_marginHorizontal="26dp"
+        android:layout_marginTop="200dp"
+        android:ems="10"
+        android:hint="Data to Fragmen 2"
+        android:inputType="textPersonName"
+        />
+
+    <Button
+        android:id="@+id/sendData1btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEND DATA TO FRAGMENT 2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        />
+
+
+
+</RelativeLayout>
